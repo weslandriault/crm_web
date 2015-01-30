@@ -1,0 +1,25 @@
+
+	<h1>Contacts</h1>
+
+	
+		<% @contacts.each do |contact| %>
+		
+		<div class="contact">
+			<h3><a href="/contacts/<%= contact.id %>">ID: <%= contact.id %></a></h3>
+			<ul>
+				
+				<li><span>First Name: </span> <%= contact.first_name %></li> 
+				<li><span>Last Name: </span> <%= contact.last_name %></li>
+				<li><span>Email: </span><%= contact.email %></li>
+				<li><span>Note: </span> <%= contact.note %></li>
+			</ul>
+			
+		</div>
+		<% end %>
+
+
+	<!-- 	<li>
+			<a href="/contacts/new">
+			Add a contact</a>
+		</li> -->
+	

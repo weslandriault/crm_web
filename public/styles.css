@@ -1,0 +1,243 @@
+/* Content Structure */
+html {
+	background: url(/seamless_bg.jpg);
+}
+body {
+	width: 900px;
+	margin: 0 auto;
+	border: 1px solid black;
+	background-color:rgba(255,255,255,0.6)
+}
+
+header {
+	margin: 0 auto;
+}
+
+ul {
+	padding: 0;
+}
+
+ul li {
+	list-style-type: none;
+}
+
+h1 {
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+nav, nav ul {
+	width: 100%;
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+
+	margin-bottom: 60px;
+}
+
+
+
+nav ul li {
+	display: block;
+	margin: 0;
+	text-align: center;
+	width: 30%;
+	float: left;
+	box-sizing: border-box;
+	box-shadow: 1px 2px black;
+	border-radius: 10px;
+	margin-left: 2.5%;
+
+}
+
+
+
+nav ul li a {
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 15px 0;
+	text-decoration: none;
+	color: black;
+	width: 100%;
+	display: block;
+}
+
+
+a:hover {
+	display: block;
+	color: white;
+	background: black;
+	border: none;
+	width: 100%;
+	box-shadow: 1px 2px white;
+}
+
+/* Contacts */
+
+h3 a {
+
+	display:block;
+	width: 100%;
+}
+
+
+/* Contact */
+
+div.contact {
+	border: 1px solid black;
+	float: left;
+	width: 30%;
+	margin-left: 2.5%;
+	margin-bottom: 50px;
+}
+
+.contact:before,
+.contact:after {
+    content: " ";
+    display: table;
+}
+
+.contact:after {
+    clear: both;
+}
+
+div.contact h3 {
+	text-align: center;
+	border: 1px solid black;
+	width: 50%;
+	margin: 10px auto 20px;
+	box-shadow: 1px 2px black;
+}
+
+div.contact ul {
+	width: 75%;
+	margin: 0 auto;
+}
+
+div.contact li {
+	margin: 10px 0;
+	word-break: break-all;
+}
+
+div.contact li span {
+	font-weight: bold;
+}
+
+/* Show Contact */
+
+section.contact {
+	clear: both;
+	border: 1px solid black;
+	border-radius: 10px;
+	width: 50%;
+	margin: 0 auto;
+	box-shadow: 1px 1px black;
+}
+
+section.contact h1 {
+	display: block;
+	box-shadow: 1px 2px black;
+	border: 1px solid black;
+	max-width: 300px;
+	margin: 10px auto 30px;
+
+}
+
+section.contact p {
+	text-align: center;
+
+}
+
+
+
+p.edit a {
+	display: block;
+	width: 70px;
+	margin: 0 auto;
+	padding: 5px;
+	border: 1px #ccc solid;
+	border-radius: 5px;
+	color: black;
+	text-decoration: none;
+	background: white;
+
+}
+
+p.edit a:active {
+	border: lightblue;
+}
+
+
+/* Form */
+
+form {
+	width: 60%;
+	margin: 0 auto;
+	border: 1px solid black;
+	border-radius: 15px;
+}
+
+form.delete {
+	border: none;
+	margin-bottom: -15px;
+}
+
+
+
+form label {
+	text-align: center;
+}
+form input, textarea {
+	display: block;
+	width: 60%;
+	margin: 10px auto;
+	padding: 5px 0;
+	border-radius: 5px;
+}
+
+form input[type=submit] {
+	padding:5px 15px;
+	background: #fff;
+	border: 1px solid #ccc;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; 
+	font-size: 15px;
+	width: 30%;
+	margin: 30px auto;
+}
+
+
+/* Footer */
+
+footer {
+	clear: both;
+	text-align: right;
+	border-top: 1px solid black;
+	padding-right: 20px;
+	margin-top: 80px;
+	
+}
+
+
+
+
+/* Fonts */
+
+header, nav, footer {
+	font-family: 'Noto Sans', sans-serif;
+}
+
+body, form input[type=submit] {
+	font-family: 'PT Serif', serif;
+	font-size: default;
+}
+
+
+
